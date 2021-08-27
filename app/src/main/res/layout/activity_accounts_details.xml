@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="SignAndLogin.AccountsDetails">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:id="@+id/accountlogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:layout_marginStart="15sp"/>
+        <TextView
+            android:id="@+id/makemamber"
+            android:layout_below="@+id/accountlogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Now let's make you a Nike Member"
+            android:textSize="25sp"
+            android:layout_margin="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/etfirstname"
+            android:layout_below="@+id/makemamber"
+            android:layout_width="150sp"
+            android:layout_height="65sp"
+            android:layout_marginStart="20sp"
+            android:hint="First Name"/>
+
+        <EditText
+            android:id="@+id/etlastname"
+            android:layout_width="150sp"
+            android:layout_height="65sp"
+            android:layout_below="@+id/makemamber"
+            android:layout_marginStart="190sp"
+            android:hint="Last Name" />
+        <EditText
+            android:id="@+id/etpassword"
+            android:layout_below="@+id/etfirstname"
+            android:layout_width="match_parent"
+            android:layout_height="65sp"
+            android:layout_margin="20sp"
+            android:hint="Password"/>
+
+        <ImageView
+            android:id="@+id/tvhide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etlastname"
+            android:layout_marginStart="300sp"
+            android:layout_marginTop="45sp"
+            android:src="@drawable/ic_hide" />
+
+        <TextView
+            android:id="@+id/mincharacters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Minimum of 8 characters"
+            android:layout_below="@+id/etpassword"
+            android:layout_marginStart="40dp"/>
+
+        <TextView
+            android:id="@+id/mincharacters2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Uppercase, lowercase letters, and one number"
+            android:layout_below="@+id/mincharacters"
+            android:layout_marginStart="40dp"/>
+
+        <EditText
+            android:id="@+id/etDob"
+            android:layout_width="match_parent"
+            android:layout_height="65sp"
+            android:layout_below="@+id/mincharacters2"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginEnd="20sp"
+            android:layout_marginBottom="20sp"
+            android:hint="Date of Birth" />
+
+        <ImageView
+            android:id="@+id/tvcalender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_calendar"
+            android:layout_below="@id/mincharacters2"
+            android:layout_marginTop="45sp"
+            android:layout_marginStart="300sp"/>
+
+        <TextView
+            android:id="@+id/birthreward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get a Nike Member Reward on your birthday "
+            android:layout_below="@+id/etDob"
+            android:layout_marginStart="40dp"/>
+        <CheckBox
+            android:id="@+id/check1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/birthreward"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"/>
+        <TextView
+            android:id="@+id/tvcheck1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/birthreward"
+            android:layout_marginStart="65sp"
+            android:layout_marginTop="22sp"
+            android:text="Sign up for email to get updates from Nike on products, offers and your Member benefits."
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+        <CheckBox
+            android:id="@+id/check2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvcheck1"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:id="@+id/tvcheck2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvcheck1"
+            android:layout_marginStart="65sp"
+            android:layout_marginTop="15dp"
+            android:text="I agree to Nike's Privacy Policy and Terms of Use."
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/btncreataccount"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_below="@id/tvcheck2"
+            android:layout_margin = "30sp"
+            android:text = "Create Account"
+            android:textColor="@color/white"
+            android:background="@drawable/rectangle"
+            android:textAllCaps="false"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

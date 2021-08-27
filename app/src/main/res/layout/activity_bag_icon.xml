@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/Relativelayout"
+    android:layout_height="match_parent"
+    tools:context="HomeIcons.BagIcon">
+
+
+    <ImageView
+        android:id="@+id/TvHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30sp"
+        android:layout_marginTop="687dp"
+        android:src="@drawable/home" />
+
+    <ImageView
+        android:id="@+id/TvSearchbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25sp"
+        android:layout_marginTop="685dp"
+        android:layout_toRightOf="@id/TvHome"
+        android:src="@drawable/search" />
+
+    <ImageView
+        android:id="@+id/TvFavorites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35sp"
+        android:layout_toRightOf="@+id/TvSearchbar"
+        android:layout_marginTop="688dp"
+        android:src="@drawable/favorite" />
+
+    <ImageView
+        android:id="@+id/TvBag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35sp"
+        android:layout_toRightOf="@+id/TvFavorites"
+        android:layout_marginTop="690dp"
+        android:src="@drawable/bag" />
+
+    <ImageView
+        android:id="@+id/TvProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35sp"
+        android:layout_toRightOf="@+id/TvBag"
+        android:layout_marginTop="690dp"
+        android:src="@drawable/identity" />
+    <TextView
+        android:id="@+id/BagHeadLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Bag"
+        android:textColor="@color/black"
+        android:layout_marginTop="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="15sp"/>
+
+    <TextView
+        android:id="@+id/TellAboutBag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BagHeadLine"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="20sp"
+        android:text="Item added to your Card Item will be saved here."
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/carditemname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TellAboutBag"
+        android:textSize="18sp"
+        android:text="Name of the item"
+        android:textColor="@color/black"
+        android:layout_marginTop="20sp"
+        android:layout_marginStart="15sp"/>
+
+    <Button
+        android:id="@+id/BagShopNow"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/carditemname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="470sp"
+        android:background="@drawable/rectangle"
+        android:text="Shop Now"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:id="@+id/relativelayout1"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardView1"
+        >
+        <ImageView
+            android:id="@+id/cardViewimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:layout_marginStart="10sp"
+            android:src="@drawable/shoe7"/>
+        <TextView
+            android:id="@+id/card1textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Just Dropped"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="225sp"/>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
