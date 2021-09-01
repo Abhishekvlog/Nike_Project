@@ -16,6 +16,10 @@ public class UserHelper {
         this.imageUrl = imageUrl;
         this.number = number;
     }
+    public UserHelper(String Email ,String Password){
+        this.Email = Email;
+        this.Password = Password;
+    }
 
     public UserHelper(String first_Name, String last_Name, String password) {
         First_Name = first_Name;

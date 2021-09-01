@@ -40,13 +40,17 @@
             android:layout_below="@+id/makemamber"
             android:layout_marginStart="190sp"
             android:hint="Last Name" />
+
         <EditText
             android:id="@+id/etpassword"
-            android:layout_below="@+id/etfirstname"
             android:layout_width="match_parent"
             android:layout_height="65sp"
-            android:layout_margin="20sp"
-            android:hint="Password"/>
+            android:layout_below="@+id/etfirstname"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginEnd="20sp"
+            android:layout_marginBottom="20sp"
+            android:hint="Password" />
 
         <ImageView
             android:id="@+id/tvhide"

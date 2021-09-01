@@ -120,11 +120,11 @@ public class HomePage extends AppCompatActivity implements ItemClickListener {
 
     private void BuildRecyclerViewData3() {
         shoe3List = new ArrayList<>();
-        shoe3List.add(new Shoe3(R.drawable.shoe14,"Basketball Highlight"));
-        shoe3List.add(new Shoe3(R.drawable.shoe15,"Football Kits"));
-        shoe3List.add(new Shoe3(R.drawable.shoe16,"Rawdacious Packs"));
-        shoe3List.add(new Shoe3(R.drawable.shoe17,"Classic"));
-        shoe3List.add(new Shoe3(R.drawable.shoe18,"Jordan"));
+        shoe3List.add(new Shoe3(R.drawable.image14,"Basketball Highlight"));
+        shoe3List.add(new Shoe3(R.drawable.image12,"Football Kits"));
+        shoe3List.add(new Shoe3(R.drawable.image11,"Rawdacious Packs"));
+        shoe3List.add(new Shoe3(R.drawable.image10,"Classic"));
+        shoe3List.add(new Shoe3(R.drawable.image9,"Jordan"));
     }
 
     private void setRecyclerViewAdapter2() {
@@ -137,11 +137,11 @@ public class HomePage extends AppCompatActivity implements ItemClickListener {
 
     private void BuildRecyclerViewData2() {
         shoe2List = new ArrayList<>();
-        shoe2List.add(new Shoe2(R.drawable.shoe14,"Style Of The Week"));
-        shoe2List.add(new Shoe2(R.drawable.shoe15,"Accessories & Equipment"));
-        shoe2List.add(new Shoe2(R.drawable.shoe16,"Nike by You"));
-        shoe2List.add(new Shoe2(R.drawable.shoe17,"Run Division"));
-        shoe2List.add(new Shoe2(R.drawable.shoe18,"Just Dropped"));
+        shoe2List.add(new Shoe2(R.drawable.imge8,"Style Of The Week"));
+        shoe2List.add(new Shoe2(R.drawable.image7,"Accessories"));
+        shoe2List.add(new Shoe2(R.drawable.image6,"Choice by You"));
+        shoe2List.add(new Shoe2(R.drawable.image5,"Run Run"));
+        shoe2List.add(new Shoe2(R.drawable.image4,"Just Run"));
     }
 
     private void setRecyclerViewAdapter() {
@@ -154,10 +154,9 @@ public class HomePage extends AppCompatActivity implements ItemClickListener {
 
     private void BuildRecyclerViewData() {
         shoe1List = new ArrayList<>();
-        shoe1List.add(new Shoe1(R.drawable.shoe10,"Nike Air Force 1 '07 PRM "));
-        shoe1List.add(new Shoe1(R.drawable.shoe11,"Nike Glide FlyEase Premium"));
-        shoe1List.add(new Shoe1(R.drawable.shoe12,"Nike Air Ghost Racer"));
-        shoe1List.add(new Shoe1(R.drawable.shoe13,"Project:Run Fearless"));
+        shoe1List.add(new Shoe1(R.drawable.image3,"Air Force 1 "));
+        shoe1List.add(new Shoe1(R.drawable.image2,"Ghost Racer"));
+        shoe1List.add(new Shoe1(R.drawable.image1,"Fearless"));
     }
 
     private void initViews() {

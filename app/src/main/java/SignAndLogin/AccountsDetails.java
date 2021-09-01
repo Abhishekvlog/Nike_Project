@@ -64,7 +64,7 @@ public class AccountsDetails extends AppCompatActivity implements DatePickerDial
                     return;
                 }
                 rootNode = FirebaseDatabase.getInstance();
-                reference = rootNode.getReference("User");
+                reference = rootNode.getReference("Users");
                 String FirstName = metFirstName.getText().toString().trim();
                 String LastName = metLastName.getText().toString().trim();
                 String Pass = metpassword.getText().toString().trim();

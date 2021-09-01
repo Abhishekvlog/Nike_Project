@@ -1,29 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="RecyclerViews.ItemDetail">
-    <TextView
-        android:id="@+id/nameofitem"
+
+    <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Air Jordan 1 Mid SE"
-        android:textColor="@color/black"
-        android:textSize="15sp"
-        android:layout_marginTop="10sp"
-        android:layout_marginStart="100sp"/>
+        >
+        <TextView
+            android:id="@+id/nameofitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Air Jordan 1 Mid SE"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginStart="100sp"/>
 
-    <ImageView
-        android:id="@+id/imageofitem"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/nameofitem"
-        android:layout_marginTop="15sp"
-        android:padding="20sp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/shoe10" />
+        <ImageView
+            android:id="@+id/imageofitem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameofitem"
+            android:layout_marginTop="15sp"
+            android:padding="20sp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/shoe10" />
 
         <TextView
             android:id="@+id/nameofitem2"
@@ -37,37 +42,38 @@
             android:layout_marginTop="15sp"
             android:layout_marginStart="15sp"/>
 
-    <TextView
-        android:id="@+id/detailofanitem"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/nameofitem2"
-        android:layout_marginStart="15sp"
-        android:layout_marginTop="15sp"
-        android:text="Washed denim and suede make this classic Air Jordan 1 Mid SE to Beat. The material are inspired by the rugged look and texture of workwere \n \n Shown: Chinnabar/White/Hemper \n Style: DM4353-600\n Country/Region of Origin: China"
-        android:textSize="15sp" />
+        <TextView
+            android:id="@+id/detailofanitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nameofitem2"
+            android:layout_marginStart="15sp"
+            android:layout_marginTop="15sp"
+            android:text="Washed denim and suede make this classic Air Jordan 1 Mid SE to Beat. The material are inspired by the rugged look and texture of workwere \n \n Shown: Chinnabar/White/Hemper \n Style: DM4353-600\n Country/Region of Origin: China"
+            android:textSize="15sp" />
 
 
-    <Button
-        android:id="@+id/btnAddToBag"
-        android:layout_width="250sp"
-        android:layout_height="50sp"
-        android:layout_below="@id/detailofanitem"
-        android:layout_marginStart="60sp"
-        android:layout_marginTop="30sp"
-        android:background="@drawable/rectangle"
-        android:text="Add To Bag"
-        android:textColor="@color/white" />
-    <Button
-        android:id="@+id/BtnFavorite"
-        android:layout_width="250sp"
-        android:layout_height="50sp"
-        android:text="Favorite"
-        android:textColor="@color/black"
-        android:background="@drawable/rectangle2"
-        android:layout_below="@id/btnAddToBag"
-        android:layout_marginStart="60sp"
-        android:layout_marginTop="30sp"/>
+        <Button
+            android:id="@+id/btnAddToBag"
+            android:layout_width="250sp"
+            android:layout_height="50sp"
+            android:layout_below="@id/detailofanitem"
+            android:layout_marginStart="60sp"
+            android:layout_marginTop="30sp"
+            android:background="@drawable/rectangle"
+            android:text="Add To Bag"
+            android:textColor="@color/white" />
+        <Button
+            android:id="@+id/BtnFavorite"
+            android:layout_width="250sp"
+            android:layout_height="50sp"
+            android:text="Favorite"
+            android:textColor="@color/black"
+            android:background="@drawable/rectangle2"
+            android:layout_below="@id/btnAddToBag"
+            android:layout_marginStart="60sp"
+            android:layout_marginTop="30sp"/>
 
+    </RelativeLayout>
 
-</RelativeLayout>
+</ScrollView>

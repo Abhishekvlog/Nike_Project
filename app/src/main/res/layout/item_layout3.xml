@@ -12,7 +12,6 @@
         <ImageView
             android:id="@+id/card3Viewimage"
             android:layout_width="wrap_content"
-            android:scaleType="centerCrop"
             android:layout_marginStart="10sp"
             android:layout_height="wrap_content"
             android:src="@drawable/shoe7"/>
